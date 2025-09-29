@@ -20,14 +20,12 @@ function App() {
                     />
                 </a>
             </div>
-            <h1>Vite + React</h1>
+            <h1>Come Meet The Team!</h1>
             <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
-                    count is {count}
-                </button>
-                <p>
-                    Edit <code>src/App.jsx</code> and save to test HMR
-                </p>
+                <h2>Who We Are:</h2>
+                <p>Gregory Tomchuk</p>
+                <p>Nabil Hasan</p>
+                <p>Hasib Shaif</p>
             </div>
             <p className="read-the-docs">
                 Click on the Vite and React logos to learn more
