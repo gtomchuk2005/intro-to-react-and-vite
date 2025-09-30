@@ -1,35 +1,18 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-    const [count, setCount] = useState(0);
     
     return (
         <>
-            <div>
-                <a href="https://vite.dev" target="_blank">
-                    <img src={viteLogo} className="logo" alt="Vite logo" />
-                </a>
-                <a href="https://react.dev" target="_blank">
-                    <img
-                        src={reactLogo}
-                        className="logo react"
-                        alt="React logo"
-                    />
-                </a>
-            </div>
             <h1>Come Meet The Team!</h1>
-            <div className="card">
+            <img src="src/assets/cis4160_react.jpg" alt="our image" />
+            <p>Our team name is BFS Boys. We are called this because at Baruch we started the Baruch Full Stack (BFS) club, which is the school's first software engineering focused club. </p>
+            <div>
                 <h2>Who We Are:</h2>
-                <p>Gregory Tomchuk</p>
-                <p>Nabil Hasan</p>
                 <p>Hasib Shaif</p>
+                <p>Nabil Hasan</p>
+                <p>Gregory Tomchuk</p>
             </div>
-            <p className="read-the-docs">
-                Click on the Vite and React logos to learn more
-            </p>
         </>
     );
 }
